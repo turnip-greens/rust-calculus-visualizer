@@ -6,3 +6,5 @@ edition = "2024"
 [dependencies]
 yew = { version = "0.23", features = ["csr"] }
 web-sys = { version = "0.3", features = ["HtmlInputElement"] }
+pollster = "0.3"
+wgpu = "30.0.0"
